@@ -19,7 +19,7 @@ img {
 .mainContainer {
   display: flex;
   flex-direction: column;
-  max-width: 1400px;
+  max-width: 1836px;
   margin: auto;
   padding: 0 4px;
   background-color: whitesmoke;
@@ -43,7 +43,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-right: 15%;
+  margin-right: 17%;
 }
 .headerNav ul {
   display: flex;
