@@ -1,0 +1,116 @@
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Maven Pro";
+  background-color: rgb(29, 29, 29);
+}
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 4px;
+  background-color: whitesmoke;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.1%;
+}
+.logo {
+  margin-left: 1vw;
+}
+.menu {
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.2rem;
+}
+.headerNav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 15%;
+}
+.headerNav ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+  font-size: 0.8rem;
+  margin-right: 1%;
+}
+.headerNav ul li {
+  flex: 1;
+}
+.headerNav a {
+  text-decoration: none;
+  margin: 0 0 0 7vw;
+  color: black;
+}
+.menu {
+  margin-right: 15%;
+}
+.innerGrid {
+  display: grid;
+  gap: 0.6%;
+}
+.innerGrid div {
+  aspect-ratio: 1;
+}
+.class3 {
+  grid-row: 4;
+  grid-column: 7;
+}
+.class4 {
+  grid-row: 3;
+  grid-column: 6;
+}
+.class5 {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+.class6 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.class7 {
+  grid-row: 3;
+  grid-column: 4;
+}
+.class8 {
+  grid-column: 1 / span 2;
+  grid-row: 3 / 5;
+}
+.class9 {
+  grid-column: 7 / span 2;
+  grid-row: 1 / span 2;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.8%;
+}
+footer > p:first-child {
+  font-weight: bold;
+}
+footer > p:last-child {
+  margin-right: 30%;
+}
