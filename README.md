@@ -1,3 +1,7 @@
+# My Solution:
+
+My solution in live version: https://rami24t.github.io/Layout-grid-design-studio-excercise/
+
 # Grid Design Studio
 
 You've just been tasked with creating the new homepage for the _Rimrod & Harris_ design studio. Below is the mockup the designer just sent you for the site -
