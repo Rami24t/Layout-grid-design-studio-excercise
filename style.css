@@ -12,7 +12,7 @@ body {
   background-color: rgb(29, 29, 29);
 }
 img {
-  width: 100%;
+  max-width: 100%;
   display: block;
   height: 100%;
 }
@@ -73,6 +73,7 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   min-height: 80vh;
   justify-content: space-around;
+  align-items: baseline;
 }
 .innerGrid div {
   aspect-ratio: 1;
@@ -82,7 +83,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2.4rem;
+  margin-top: 10.3rem;
 }
 footer > p:first-child {
   font-weight: bold;
